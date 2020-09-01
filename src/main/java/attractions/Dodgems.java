@@ -1,10 +1,10 @@
 package attractions;
 
 import behaviours.IReviewed;
-import behaviours.ITicketed;
+import behaviours.ISTicketed;
 import people.Visitor;
 
-public class Dodgems extends Attraction implements IReviewed, ITicketed {
+public class Dodgems extends Attraction implements IReviewed, ISTicketed {
 
     private double price;
 
